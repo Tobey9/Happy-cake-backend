@@ -8,7 +8,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://merry-phoenix-d8e6b0.netlify.app/",
+      "https://merry-phoenix-d8e6b0.netlify.app",
     ], // or whatever your frontend URL is
     credentials: true,
   })
